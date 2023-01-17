@@ -5,14 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artur Peixoto Lucas | Meu portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color:rgb(181, 236, 238);
+            font-family: Quicksand;
+            color: rgb(20, 58, 59);
+            text-align: center;
+        }
+
+        .fonte-nome {
+            font-family: Quicksand;
+            font-weight: 800;
+            font-size: 50px;
+        }
+
+        #nacionalidade {
+            font-style: italic;
+            font-size: .8em;
+        }
+
+        #foto-perfil {
+            border-radius: 100%;
+        }
+    </style>
 </head>
 <body>
     <strong>Sumário do Artigo</strong> <br>
     <a href=#habilidades1>- Habilidades que me orgulho.</a> <br>
     <a href=#habilidades2>- Outras habilidades.</a> <br>
-    <h1>Artur Peixoto Lucas</h1>
-    <img src="./perfil.png" width="200px" alt="Artur Peixoto Lucas">
-    <p><em>Brasileiro, atualmente reside em Belo Horizonte, Minas Gerais.</em></p>
+    <h1 class="fonte-nome">Artur Peixoto Lucas</h1>
+    <img id="foto-perfil" src="./perfil.png" width="200px" alt="Artur Peixoto Lucas">
+    <p id="nacionalidade">Brasileiro, atualmente reside em Belo Horizonte, Minas Gerais.</p>
     <p>Aluno de desenvolvimento Web pela Trybe | Músico @alumeoficial | Bacharel em Engenharia Civil pela PUC Minas.</p>
     <h2 id = "habilidades1">Habilidades que mais me orgulho:</h2>
     <ul>
