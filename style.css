@@ -25,19 +25,21 @@ body {
 #foto-perfil {
     border-radius: 100%;
     width: 300px;
+    padding: 30px 20px 20px 20px;
 }
 
 .header {
     border: 2px solid green;
-    width: 300px;
+    width: 700px;
+    height: 400px;
+    vertical-align: middle;
 }
 .header-left { 
     float: left;
-    display: inline-block;
 }
 
 .header-right {
-    
+    vertical-align: middle;
 }
 
 .divisao {
