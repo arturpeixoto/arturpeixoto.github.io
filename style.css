@@ -27,30 +27,25 @@ body {
     width: 300px;
 }
 
-.lista1 {
-    font-weight: 300;
-    font-style: oblique;
-    font-stretch: expanded;
+
+.header {
+    border: 2px solid green;
+    width: 300px;
+}
+.header-left { 
+    float: left;
+    width: 300px;
 }
 
-.lista2 {
-    font-weight: 500;
-    font-style: oblique;
-    
-}
+.header-right {
+    width: 300px;
+    float: right;
+    }
+
 .divisao {
     background-color: rgb(163, 212, 214);
     border-radius: 10px;
     display: inline-block;
     text-align: center;
 }
-
-.header-left { 
-    float: left;
-    width: 1000px;
-}
-
-.header-right {
-    float: right;
-    width: 1000px;
-}
+    
