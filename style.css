@@ -8,7 +8,7 @@ body {
     background-color:rgb(181, 236, 238);
     font-family: Quicksand, Verdana, sans-serif;
     color: rgb(20, 58, 59);
-    text-align: center;
+    text-align: left;
 }
 
 .fonte-nome {
@@ -27,20 +27,18 @@ body {
     width: 300px;
 }
 
-
 .header {
     border: 2px solid green;
     width: 300px;
 }
 .header-left { 
     float: left;
-    width: 300px;
+    display: inline-block;
 }
 
 .header-right {
-    width: 300px;
-    float: right;
-    }
+    
+}
 
 .divisao {
     background-color: rgb(163, 212, 214);
@@ -48,4 +46,15 @@ body {
     display: inline-block;
     text-align: center;
 }
+
+.lista1 {
+    font-weight: 300;
+    font-style: oblique;
+    font-stretch: expanded;
+}
+
+.lista2 {
+    font-weight: 500;
+    font-style: oblique;
     
+}
