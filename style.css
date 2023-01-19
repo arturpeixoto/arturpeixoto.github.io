@@ -8,7 +8,7 @@ body {
     background-color:rgb(181, 236, 238);
     font-family: Quicksand, Verdana, sans-serif;
     color: rgb(20, 58, 59);
-    text-align: left;
+    text-align: center;
 }
 
 .fonte-nome {
@@ -24,29 +24,36 @@ body {
 
 #foto-perfil {
     border-radius: 100%;
+    border: 3px solid black;
     width: 300px;
-    padding: 30px 20px 20px 20px;
 }
 
 .header {
-    border: 2px solid green;
-    width: 700px;
-    height: 400px;
-    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .header-left { 
-    float: left;
+
 }
 
 .header-right {
-    vertical-align: middle;
+    width: 300px;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .divisao {
     background-color: rgb(163, 212, 214);
     border-radius: 10px;
-    display: inline-block;
     text-align: center;
+    width: 300px;
+    margin: 5px;
 }
 
 .lista1 {
@@ -58,5 +65,4 @@ body {
 .lista2 {
     font-weight: 500;
     font-style: oblique;
-    
 }
